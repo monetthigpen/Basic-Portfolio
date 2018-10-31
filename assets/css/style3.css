@@ -1,0 +1,8 @@
+body{
+
+}
+#mainsectioncontent{
+    width:960px;
+    background-color: #cf6464;
+    display: flex;
+}

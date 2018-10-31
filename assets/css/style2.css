@@ -1,0 +1,109 @@
+#nav{
+    background-color: purple;
+}
+body{
+     border-left: 500px;
+     border-right: 500px;
+}
+.first{
+    width: 200px;
+    height: 50px;
+    background-color: #4aaaa5; 
+    float: left;
+    margin: 1px;
+    text-align: center;
+    padding: 1%;
+}
+
+.mainsectioncontent{
+    width:960px;
+    background-color: #ffffff;
+    display: block;
+    float: middle; 
+    padding: 10px;
+}
+#animals{
+    background-color: #4aaaa5;
+    width: 100px;
+    margin:0;
+    text-align: center;
+    
+    
+}
+#nature{
+    background-color: #4aaaa5;
+    width: 100px;
+    margin:0;
+    text-align: center;
+   
+
+}
+#Architecture{
+    background-color: #4aaaa5;
+    width: 100px;
+    margin:0;
+    text-align: center;
+   
+    
+}
+#tech{
+    background-color: #4aaaa5;
+    width: 100px;
+    margin:0;
+    text-align: center;
+   
+
+}
+#grayscale{
+    background-color: #4aaaa5;
+    width: 100px;
+    margin:0;
+    text-align: center;
+   
+
+}
+
+li{
+    list-style-type: none;
+    display: inline;
+    margin: 2px;
+    float: right;
+    
+}
+.wrapper{
+    background: red;
+    padding: 10%;
+    padding-right: 100px;
+
+
+}
+h1{
+    color:#ffffff;
+
+}
+h2{
+    font-size: 48px;
+    font-style: times;
+}
+.header{
+    background: #ffffff;
+    height: 200px;
+    width:fit-content;
+    margin: 4%;
+}
+.display{
+    display: flex;
+    float: left;
+    padding: 3px;
+    margin:2px;
+}
+.img{
+    float: left;
+    margin: 2px;
+}
+#rel{
+    position: relative;
+}
+.container{
+    
+}
