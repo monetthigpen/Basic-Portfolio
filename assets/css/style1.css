@@ -1,8 +1,64 @@
 body{
+   
+}
+#header{
+    widows: #ffffff;
+}
+li{
+    list-style-type: none;
+    display: inline;
+    margin: 2px;
+    float: right;
+    margin-top: 7%;
+    
+}
+.title{
+    font-size: 20px;
+    font-style: times;
+    color: #ffffff;
+    background:#4aaaa5;
+    width: 200px;
+    text-align: center;
+    padding: 0;
+    margin: 150px;
+    
+}
+.background{
+    width: 1000px;
 
 }
-#mainsectioncontent{
+.wrapper{
+     
+    background-image: url("folk-pattern.png");
+    padding: 15%;
+    padding-right: 100px;
+}
+#img{
+    height:200px;
+    width: 200px;
+}
+.mainsectioncontent{
     width:960px;
-    background-color: #cf6464;
-    display: flex;
+    background-color: #ffffff;
+    display: block;
+    float: middle; 
+    padding: 10px;
+}
+.text{
+    font-size: 14px;
+    float: left;
+    display: block;
+    padding: 0%;
+    
+}
+.footer{
+    background-color:#666666;
+    display: block;
+    text-align: center;
+    height: 30px;
+
+}
+.bordertop{
+    background: #4aaaa5;
+    height: 8px;
 }

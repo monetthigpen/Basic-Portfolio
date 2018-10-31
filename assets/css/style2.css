@@ -1,6 +1,4 @@
-#nav{
-    background-color: purple;
-}
+
 body{
      border-left: 500px;
      border-right: 500px;
@@ -71,7 +69,7 @@ li{
     
 }
 .wrapper{
-    background: red;
+    background-image: url("folk-pattern.png");
     padding: 10%;
     padding-right: 100px;
 
@@ -105,5 +103,20 @@ h2{
     position: relative;
 }
 .container{
-    
+
+}
+#header{
+    background: blue;
+}
+.footer{
+    background-color:#666666;
+    display: block;
+    text-align: center;
+    height: 30px;
+    widows: 1000px;
+
+}
+.bordertop{
+    background: #4aaaa5;
+    height: 8px;
 }
