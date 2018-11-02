@@ -8,36 +8,59 @@ body{
     display: block;
     float: middle; 
     padding: 10px;
+    
+
 }
-.first{
+.title{
+    font-size: 20px;
+    font-style: times;
+    color: #ffffff;
+    background:#4aaaa5;
     width: 200px;
-    height: 50px;
-    background-color: #4aaaa5; 
-    float: left;
-    margin: 1px;
     text-align: center;
-    padding: 1%;
+    /*padding: 2px*/
+    position: relative; 
+    left:130px;
 }
 .header{
-    background: #ffffff;
+   /* background: #ffffff;
     height: 200px;
     width:fit-content;
-    margin: 4%;
+    margin:4%;*/
+
 }
 li{
     list-style-type: none;
     display: inline;
-    margin: 2px;
+    margin: 5px;
+    position: relative;
+    /*left: 570px;*/
+    margin-top: 7%;
+
     
     
 }
 .wrapper{
     background-image: url("folk-pattern.png");
-    padding: 10%;
+    padding: 15%;
     padding-right: 100px;
 
 
 }
 nav{
     float:right;
+
+    
+}
+.footer{
+    background-color:#666666;
+    display: block;
+    text-align: center;
+    height: 30px;
+    widows: 1000px;
+
+}
+.bordertop{
+    background: #4aaaa5;
+    height: 8px;
 }
