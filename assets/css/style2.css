@@ -19,6 +19,9 @@ body{
     display: block;
     float: middle; 
     padding: 10px;
+    border:solid;
+    border-color: lightgrey;
+    border-top-width: 2px;
 }
 #animals{
     background-color: #4aaaa5;
@@ -77,13 +80,17 @@ li{
     display: inline;
     margin: 5px;
     float: right;
-    margin-top: 6%;
+    margin-top: 5%;
     
 }
 .wrapper{
     background-image: url("folk-pattern.png");
     padding: 10%;
     padding-right: 100px;
+    border:solid;
+    border-color: #ffffff;
+    border-color: lightgrey;
+    border-top-width: 2px;
 
 
 }

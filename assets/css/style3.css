@@ -6,9 +6,11 @@ body{
     width:960px;
     background-color: #ffffff;
     display: block;
-    float: middle; 
+    float: middle;
+    border: solid; 
     padding: 10px;
-    
+    border-color: lightgrey;
+    border-top-width: 2px;
 
 }
 .title{
@@ -18,7 +20,7 @@ body{
     background:#4aaaa5;
     width: 200px;
     text-align: center;
-    /*padding: 2px*/
+    padding: 2px;
     position: relative; 
     left:130px;
 }
@@ -35,7 +37,7 @@ li{
     margin: 5px;
     position: relative;
     /*left: 570px;*/
-    margin-top: 7%;
+   /* margin-top: 20%;*/
    
 
     
@@ -45,11 +47,16 @@ li{
     background-image: url("folk-pattern.png");
     padding: 15%;
     padding-right: 100px;
+    border: solid;
+    border-color: #ffffff;
+    border-top-color: lightgrey;
+    border-top-width: 2px;
 
 
 }
 nav{
     float:right;
+    margin-top: 4%;
 
     
 }
