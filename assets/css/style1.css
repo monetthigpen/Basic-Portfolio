@@ -54,6 +54,7 @@ li{
     float: left;
     display: block;
     padding: 0%;
+
     
 }
 .footer{
@@ -66,4 +67,14 @@ li{
 .bordertop{
     background: #4aaaa5;
     height: 8px;
+}
+h2{
+    font-size: 48px;
+    font-style: times;
+    border-style: solid;
+    border-color: #ffffff;
+    border-bottom-color: #666666;
+    border-width: 98%;
+    color:#4aaaa5;
+    
 }

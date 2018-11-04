@@ -22,41 +22,52 @@ body{
 }
 #animals{
     background-color: #4aaaa5;
-    width: 100px;
-    margin:0;
+    width: 200px;
     text-align: center;
+    position: relative;
+    display: block;
     
-    
+       
 }
 #nature{
     background-color: #4aaaa5;
-    width: 100px;
-    margin:0;
+    width: 200px;
     text-align: center;
+    position: relative;
+    display: block;
+    
+    
    
 
 }
 #Architecture{
     background-color: #4aaaa5;
-    width: 100px;
-    margin:0;
+    width: 200px;
     text-align: center;
+    position: relative;
+    display: block;
+    
    
     
 }
 #tech{
     background-color: #4aaaa5;
-    width: 100px;
-    margin:0;
+    width: 200px;
     text-align: center;
+    position: relative;
+    display: block;
+    
    
 
 }
 #grayscale{
     background-color: #4aaaa5;
-    width: 100px;
-    margin:0;
+    width: 200px;
     text-align: center;
+    position: relative;
+    display: block;
+    height:15px;
+   
    
 
 }
@@ -83,6 +94,12 @@ h1{
 h2{
     font-size: 48px;
     font-style: times;
+    border-style: solid;
+    border-color: #ffffff;
+    border-bottom-color: #666666;
+    border-width: 98%;
+    color:#4aaaa5;
+    
 }
 .header{
     background: #ffffff;
@@ -96,16 +113,7 @@ h2{
     padding: 3px;
     margin:2px;
 }
-.img{
-    float: left;
-    margin: 2px;
-}
-#rel{
-    position: relative;
-}
-.container{
 
-}
 #header{
     background: #ffffff;
 }
@@ -132,4 +140,20 @@ h2{
     position: relative; 
     left:130px;
 
+}
+.figure{
+    height: 10px;
+    width: 100px;
+}
+.fl{
+    float: left;
+    margin: 7px;
+     
+}
+.clear{
+    clear: both;
+}
+img{
+    height: 200px;
+    width: 200px;
 }
